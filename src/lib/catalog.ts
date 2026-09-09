@@ -320,7 +320,7 @@ export function productsByCategory(category: ProductCategory | "all") {
 
 export const PHONE = "(605) 887-3456";
 export const PHONE_TEL = "+16058873456";
-export const EMAIL = "info@krampenterprises.com";
+export const EMAIL = "kristakramp@yahoo.com";
 export const ADDRESS = "303 East 6th Street";
 export const CITY = "Brentford, SD 57429";
 export const HOURS = "Mon–Fri 7:30–5:00 · Saturday by appointment";
