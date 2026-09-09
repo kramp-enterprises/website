@@ -1,0 +1,225 @@
+export type GalleryTag = "bins" | "yarbo" | "signs" | "shop" | "tables" | "custom";
+
+export type GalleryItem = {
+  id: string;
+  src: string;
+  title: string;
+  tag: GalleryTag;
+  alt: string;
+  cutout?: boolean;
+  video?: string;
+};
+
+export const GALLERY: GalleryItem[] = [
+  {
+    id: "g-yarbo-acres",
+    src: "/images/yarbo/mower-acres.jpg",
+    title: "Yarbo Lawn Mower Pro — acreage cut",
+    tag: "yarbo",
+    alt: "Yarbo robotic mower cutting a large lawn",
+    video: "/videos/yarbo-mow.mp4",
+  },
+  {
+    id: "g-yarbo-terrain",
+    src: "/images/yarbo/mower-terrain.jpg",
+    title: "Tracks on real ground",
+    tag: "yarbo",
+    alt: "Yarbo mower climbing uneven rural terrain",
+  },
+  {
+    id: "g-yarbo-snow",
+    src: "/images/yarbo/snow-throw.jpg",
+    title: "Snow module — South Dakota winter",
+    tag: "yarbo",
+    alt: "Yarbo snow blower throwing snow from a driveway",
+  },
+  {
+    id: "g-yarbo-blower",
+    src: "/images/yarbo/blower-leaves.jpg",
+    title: "Leaf blower module",
+    tag: "yarbo",
+    alt: "Yarbo blower clearing leaves along a walk",
+  },
+  {
+    id: "g-yarbo-kit",
+    src: "/images/yarbo/kit-4in1.jpg",
+    title: "One Core, four seasons",
+    tag: "yarbo",
+    alt: "Yarbo Core with mower, snow, blower, and trimmer modules",
+    cutout: true,
+  },
+  {
+    id: "g-bins-harvest",
+    src: "/images/bins/harvest.jpg",
+    title: "Harvest loadout",
+    tag: "bins",
+    alt: "Grain bins with a swing-away auger loading a hopper trailer at dusk",
+  },
+  {
+    id: "g-bins-complex",
+    src: "/images/bins/complex.jpg",
+    title: "Commercial storage",
+    tag: "bins",
+    alt: "Commercial GSI grain bin complex with catwalks and a dryer",
+  },
+  {
+    id: "g-bins-leg",
+    src: "/images/bins/leg.jpg",
+    title: "GSI legs and catwalks",
+    tag: "bins",
+    alt: "GSI bucket elevator and catwalks against a clear sky",
+  },
+  {
+    id: "g-bins-catwalk",
+    src: "/images/bins/catwalk.jpg",
+    title: "Setting a catwalk",
+    tag: "bins",
+    alt: "Crane lifting a catwalk between grain bins with a worker on the roof",
+  },
+  {
+    id: "g-bins-dryer",
+    src: "/images/bins/dryer.jpg",
+    title: "Dryer, elevator, control",
+    tag: "bins",
+    alt: "Grain dryer, bucket elevator, bins, and green control building",
+  },
+  {
+    id: "g-bins-crane",
+    src: "/images/bins/site-crane.jpg",
+    title: "Crane on the site",
+    tag: "bins",
+    alt: "Two grain bins with a dryer and a crane truck on a South Dakota farm",
+  },
+  {
+    id: "g-gsi",
+    src: "/images/gsi-signs.jpg",
+    title: "KCI · GSI dealer — Brentford",
+    tag: "bins",
+    alt: "Kramp Construction and GSI grain systems signs over the shop lawn",
+  },
+  {
+    id: "g-plasma",
+    src: "/images/plasma-cut.jpg",
+    title: "Hypertherm on the table",
+    tag: "shop",
+    alt: "CNC plasma cutting a custom steel fishing sign",
+    video: "/videos/plasma-cut.mp4",
+  },
+  {
+    id: "g-plasma-sparks",
+    src: "/images/plasma-sparks.jpg",
+    title: "Scott and Bonnie Christians — in the cut",
+    tag: "signs",
+    alt: "Plasma torch cutting lettering for a family fishing sign",
+  },
+  {
+    id: "g-weld",
+    src: "/images/shop-weld.jpg",
+    title: "Fit-up on the welding table",
+    tag: "shop",
+    alt: "Curved steel lettering clamped on a fab table in the Brentford shop",
+  },
+  {
+    id: "g-jilek",
+    src: "/images/sign-jilek.png",
+    title: "Jilek lake house · est. 2025",
+    tag: "signs",
+    alt: "Plasma-cut circular lake house sign with Adirondack chairs",
+    cutout: true,
+  },
+  {
+    id: "g-aslesons",
+    src: "/images/sign-aslesons.png",
+    title: "The Aslesons — happy place",
+    tag: "signs",
+    alt: "Round steel family plaque",
+    cutout: true,
+  },
+  {
+    id: "g-daves",
+    src: "/images/sign-famous-daves.png",
+    title: "Portrait cut — Famous Dave’s",
+    tag: "signs",
+    alt: "Plasma-cut portrait sign with crossed forks and script lettering",
+    cutout: true,
+  },
+  {
+    id: "g-dainty",
+    src: "/images/sign-dainty-den.png",
+    title: "Dainty Den — script plate",
+    tag: "signs",
+    alt: "Script steel name plate",
+    cutout: true,
+  },
+  {
+    id: "g-dainty-floor",
+    src: "/images/sign-dainty-den-floor.jpg",
+    title: "Dainty Den — just off the table",
+    tag: "shop",
+    alt: "Script steel sign on the shop floor",
+  },
+  {
+    id: "g-deer",
+    src: "/images/deer.png",
+    title: "Whitetail plate",
+    tag: "signs",
+    alt: "Plasma-cut deer silhouette on a riveted steel plate",
+    cutout: true,
+  },
+  {
+    id: "g-fire",
+    src: "/images/firepit.png",
+    title: "Steel fire box",
+    tag: "tables",
+    alt: "Plate-steel fire box with vent slots and HOT cutout",
+    cutout: true,
+  },
+  {
+    id: "g-henjum",
+    src: "/images/table-henjum.png",
+    title: "Rolling tables — butcher block",
+    tag: "tables",
+    alt: "Custom steel and wood rolling table with branded lower shelf",
+    cutout: true,
+  },
+  {
+    id: "g-henjum-yard",
+    src: "/images/table-henjum-yard.jpg",
+    title: "Rolling tables — on the drive",
+    tag: "tables",
+    alt: "Custom rolling table on a South Dakota driveway",
+  },
+  {
+    id: "g-console",
+    src: "/images/table-console.png",
+    title: "Rolling tables — console",
+    tag: "tables",
+    alt: "Long steel and wood console table on wheels",
+    cutout: true,
+  },
+  {
+    id: "g-shop-table",
+    src: "/images/shop-table.jpg",
+    title: "Rolling tables — shop floor",
+    tag: "tables",
+    alt: "Custom rolling table inside the fabrication shop",
+  },
+  {
+    id: "g-stairs",
+    src: "/images/stairs.png",
+    title: "Crossover stairs",
+    tag: "custom",
+    alt: "Yellow industrial crossover stairs with diamond plate treads",
+    cutout: true,
+  },
+];
+
+export const GALLERY_FILTERS: { id: "all" | GalleryTag; label: string }[] = [
+  { id: "all", label: "All work" },
+  { id: "signs", label: "Signs" },
+  { id: "custom", label: "Custom projects" },
+  { id: "tables", label: "Steel & tables" },
+  { id: "yarbo", label: "Yarbo" },
+  { id: "shop", label: "Shop" },
+  { id: "bins", label: "Grain" },
+];
