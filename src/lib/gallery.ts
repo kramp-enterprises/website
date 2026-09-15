@@ -136,22 +136,6 @@ export const GALLERY: GalleryItem[] = [
     cutout: true,
   },
   {
-    id: "g-daves",
-    src: "/images/sign-famous-daves.png",
-    title: "Portrait cut — Famous Dave’s",
-    tag: "signs",
-    alt: "Plasma-cut portrait sign with crossed forks and script lettering",
-    cutout: true,
-  },
-  {
-    id: "g-dainty",
-    src: "/images/sign-dainty-den.png",
-    title: "Dainty Den — script plate",
-    tag: "signs",
-    alt: "Script steel name plate",
-    cutout: true,
-  },
-  {
     id: "g-dainty-floor",
     src: "/images/sign-dainty-den-floor.jpg",
     title: "Dainty Den — just off the table",
