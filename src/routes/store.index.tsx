@@ -30,9 +30,9 @@ function StorePage() {
       <h1 className="mt-2 font-display text-5xl text-forest sm:text-6xl">
         Order steel. Quote bins. Buy a robot.
       </h1>
-      <p className="mt-4 max-w-2xl text-muted">
-        Yarbo and catalog metal can go in the cart. Grain systems stay a quote —
-        we will not invent a price for a 48-foot bin.
+      <p className="mt-4 max-w-2xl text-base leading-relaxed text-forest">
+        Online store not active at this time — but feel free to get ideas below
+        and request a quote!
       </p>
       <div className="mt-8 flex flex-wrap gap-2">
         {FILTERS.map((f) => (
