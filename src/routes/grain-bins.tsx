@@ -108,7 +108,7 @@ function GrainBinsPage() {
             "Unloads, U-troughs, and paddle sweeps",
             "Aeration fans, heaters, and conditioning",
             "Bin monitoring and spreaders",
-            "Concrete pads, rings, and millwright",
+            "Concrete pads",
             "Service, belts, motors, and harvest repairs",
           ].map((item) => (
             <li
