@@ -79,7 +79,7 @@ function GrainBinsPage() {
       <PageHero
         kicker="GSI dealer"
         title="Grain bins & handling that get stood right."
-        lede="Farm and commercial storage, material handling, and conditioning — designed, poured, and installed from Brentford for the James River Valley and northeast South Dakota."
+        lede="Farm and commercial storage, material handling, and conditioning — designed, assembled, and installed from Brentford for the James River Valley and northeast South Dakota."
         image="/images/bins/harvest.jpg"
         position="center"
       >
