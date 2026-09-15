@@ -18,8 +18,8 @@ const STEPS = [
   },
   {
     n: "03",
-    t: "Pour and stand",
-    d: "Concrete, millwright, and bin raise with our crew. We keep subs thin on purpose.",
+    t: "Pour and build",
+    d: "Concrete, bin erection, and millwright. We keep our subs thin on purpose, bin erection and maybe some concrete. Our subs have been with us for over a decade, and we trust them as much as our own crew.",
   },
   {
     n: "04",
