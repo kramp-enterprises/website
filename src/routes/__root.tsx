@@ -1,13 +1,13 @@
 import { createRootRoute, HeadContent, Link, Outlet, Scripts } from "@tanstack/react-router";
 import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
+import { JsonLd } from "@/components/json-ld";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { Button } from "@/components/ui/button";
+import { localBusinessJsonLd } from "@/lib/seo";
 import { Toaster } from "sonner";
 import appCss from "../styles.css?url";
-
-const APP_NAME = "Kramp Enterprises";
 
 function NotFound() {
   return (
@@ -27,19 +27,21 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: APP_NAME },
+      { title: "Kramp Enterprises | GSI Grain Bins, Yarbo & Steel — Brentford, SD" },
       {
         name: "description",
         content:
-          "Kramp Enterprises — GSI grain bins and handling, Yarbo yard robots, and custom CNC signs from Brentford, South Dakota.",
+          "Family owned since 1985. GSI grain systems, Yarbo robotic mowers, and CNC plasma signs from 303 East 6th Street, Brentford, South Dakota. Call (605) 887-3456.",
       },
       { name: "theme-color", content: "#163528" },
+      { name: "robots", content: "index,follow,max-image-preview:large" },
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
       { rel: "stylesheet", href: appCss },
       { rel: "manifest", href: "/__grok/manifest.webmanifest" },
       { rel: "apple-touch-icon", href: "/__grok/icon-180.png" },
+      { rel: "canonical", href: "https://www.krampenterprises.com/" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       {
         rel: "preconnect",
@@ -59,6 +61,7 @@ export const Route = createRootRoute({
       </head>
       <body className="flex min-h-dvh flex-col bg-cream text-ink">
         <PreviewHostBridge />
+        <JsonLd data={localBusinessJsonLd()} />
         <AuthProvider>
           <SiteHeader />
           <div className="flex-1">
