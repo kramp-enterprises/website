@@ -176,9 +176,11 @@ function GrainBinsPage() {
         <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-6 px-4 py-14 sm:flex-row sm:items-center">
           <div>
             <h2 className="font-display text-4xl">No cart price on a bin site.</h2>
-            <p className="mt-2 max-w-xl text-sm text-cream/75">
-              Diameter, bushels, handling, and concrete decide the number. Send
-              the farm and we will walk it.
+            <p className="mt-2 max-w-2xl text-sm leading-relaxed text-cream/75">
+              Each customer is different — just like each farm is different.
+              Because of all of the different options, a 48 × 8 to one customer
+              is different than a 48 × 8 to another customer. That’s why each
+              estimate is customized based off of YOUR specific needs.
             </p>
           </div>
           <Button asChild size="lg" variant="invert">
