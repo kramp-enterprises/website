@@ -9,8 +9,8 @@ export function SiteFooter() {
         <div className="md:col-span-1">
           <BrandMark invert />
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-cream/70">
-            Grain systems, Yarbo yard robots, and custom metal — built and
-            backed from Brentford, South Dakota.
+            Grain systems, Yarbo yard robots, and custom metal — family owned
+            and operated from Brentford, South Dakota since 1985.
           </p>
         </div>
         <div>

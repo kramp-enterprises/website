@@ -22,7 +22,7 @@ function Home() {
             className="h-auto w-full max-w-xl object-contain object-center sm:max-w-2xl"
           />
           <p className="mt-8 max-w-xl font-display text-sm uppercase tracking-[0.28em] text-muted">
-            Brentford, South Dakota · est. 1985
+            Family owned and operated since 1985 · Brentford, SD
           </p>
           <h1 className="mt-4 max-w-3xl font-display text-4xl leading-[0.95] tracking-tight text-forest sm:text-6xl">
             Grain. Yard. Steel.

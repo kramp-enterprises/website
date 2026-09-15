@@ -10,7 +10,7 @@ function AboutPage() {
       <section className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-16 md:grid-cols-2">
         <div>
           <p className="font-display text-xs uppercase tracking-[0.22em] text-muted">
-            Kramp Enterprises Inc.
+            Family owned and operated since 1985
           </p>
           <h1 className="mt-2 font-display text-5xl text-forest sm:text-6xl">
             A Brentford shop that still answers the phone.
