@@ -167,24 +167,6 @@ export const PRODUCTS: Product[] = [
     cutout: true,
   },
   {
-    slug: "portrait-sign",
-    name: "Custom Portrait Sign",
-    category: "signs",
-    kind: "custom",
-    priceCents: 28000,
-    priceNote: "Starting price · art is quoted from your photo",
-    blurb:
-      "A face, a mascot, a grill-shop mark — vectorized in-house and cut on the plasma table.",
-    details: [
-      "We clean a photo or logo for plasma",
-      "Heavy plate, layered or single-pass",
-      "Proof before steel hits the table",
-    ],
-    image: "/images/sign-famous-daves.png",
-    shots: ["/images/plasma-sparks.jpg", "/images/deer.png"],
-    cutout: true,
-  },
-  {
     slug: "deer-sign",
     name: "Whitetail Wall Sign",
     category: "signs",
