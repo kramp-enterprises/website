@@ -154,7 +154,7 @@ export const PRODUCTS: Product[] = [
     name: "Round Family Plaque",
     category: "signs",
     kind: "custom",
-    priceCents: 12500,
+    priceCents: 15000,
     priceNote: "Starting price",
     blurb:
       "Circular steel plaque with your name and a line that belongs on the shop wall or the cabin door.",
