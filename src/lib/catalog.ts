@@ -109,6 +109,30 @@ export const PRODUCTS: Product[] = [
     ],
   },
   {
+    slug: "yarbo-core-mower-pro",
+    name: "Core + Lawn Mower Pro",
+    category: "yarbo",
+    kind: "buy",
+    priceCents: 599900,
+    priceNote: "Includes local delivery and mapping in our service area",
+    blurb:
+      "The mowing package: Yarbo Core and Lawn Mower Pro. Same machine you add snow and blower to later.",
+    details: [
+      "Yarbo Core + Lawn Mower Pro module",
+      "Docking station, battery, and data center",
+      "On-farm mapping and walkthrough",
+      "Add snow or blower whenever you're ready",
+    ],
+    image: "/images/yarbo/mower-pro.jpg",
+    shots: [
+      "/images/yarbo/mower-acres.jpg",
+      "/images/yarbo/core.jpg",
+      "/images/yarbo/mower-terrain.jpg",
+      "/images/yarbo/kit-4in1.jpg",
+    ],
+    badge: "Package",
+  },
+  {
     slug: "yarbo-acreage-kit",
     name: "Acreage Kit — Core + Mower Pro + Snow",
     category: "yarbo",
