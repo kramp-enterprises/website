@@ -14,6 +14,7 @@ const NAV = [
   { to: "/fabrication", label: "Fab & signs" },
   { to: "/store", label: "Store" },
   { to: "/gallery", label: "Gallery" },
+  { to: "/service-area", label: "Area" },
   { to: "/about", label: "About" },
 ] as const;
 
@@ -27,7 +28,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 border-b border-line/80 bg-cream/92 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4">
         <BrandMark compact />
-        <nav className="hidden items-center gap-6 lg:flex">
+        <nav className="hidden items-center gap-5 lg:flex">
           {NAV.map((item) => (
             <Link
               key={item.to}
