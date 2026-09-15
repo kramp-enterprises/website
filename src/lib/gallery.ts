@@ -72,7 +72,7 @@ export const GALLERY: GalleryItem[] = [
   {
     id: "g-bins-catwalk",
     src: "/images/bins/catwalk.jpg",
-    title: "Setting a catwalk",
+    title: "Setting a versaloop",
     tag: "bins",
     alt: "Crane lifting a catwalk between grain bins with a worker on the roof",
   },

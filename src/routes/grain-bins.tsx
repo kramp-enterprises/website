@@ -45,7 +45,7 @@ const JOBS = [
   },
   {
     src: "/images/bins/catwalk.jpg",
-    title: "Setting a catwalk",
+    title: "Setting a versaloop",
     alt: "Crane lifting a catwalk between grain bins with a worker on the roof",
     span: "",
     tall: true,
