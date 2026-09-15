@@ -95,7 +95,7 @@ function GrainBinsPage() {
 
       <section className="mx-auto grid max-w-6xl gap-8 px-4 py-16 md:grid-cols-2">
         <div>
-          <h2 className="font-display text-4xl text-forest">What we sell and stand</h2>
+          <h2 className="font-display text-4xl text-forest">What we sell and stand behind</h2>
           <p className="mt-4 text-muted leading-relaxed">
             GSI grain bins and the iron around them. We price the system — not a
             mystery line item — and we do the majority of the work ourselves.
