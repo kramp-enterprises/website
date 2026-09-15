@@ -248,7 +248,7 @@ export const PRODUCTS: Product[] = [
     name: "Rolling Tables",
     category: "tables",
     kind: "custom",
-    priceCents: 149500,
+    priceCents: 185000,
     priceNote: "Starting price · size, top, and lettering quoted",
     blurb:
       "Welded steel bases on wheels — butcher-block work tables or a long console. Shop, cabin, or outdoor bar.",
@@ -258,13 +258,13 @@ export const PRODUCTS: Product[] = [
       "Optional plasma-cut name in the shelf",
       "Wheels that actually roll on gravel",
     ],
-    image: "/images/table-henjum.png",
+    image: "/images/table-henjum-hero.jpg",
     shots: [
+      "/images/table-henjum.png",
       "/images/table-henjum-yard.jpg",
       "/images/table-console.png",
       "/images/shop-table.jpg",
     ],
-    cutout: true,
   },
   {
     slug: "grain-bin-system",
