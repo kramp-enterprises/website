@@ -323,5 +323,5 @@ export const PHONE_TEL = "+16058873456";
 export const EMAIL = "kristakramp@yahoo.com";
 export const ADDRESS = "303 East 6th Street";
 export const CITY = "Brentford, SD 57429";
-export const HOURS = "Mon–Fri 7:30–5:00 · Saturday by appointment";
+export const HOURS = "Mon–Fri 8:30–4:30 · Saturday by appointment only";
 export const WEB = "www.krampenterprises.com";
