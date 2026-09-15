@@ -10,7 +10,8 @@ export function SiteFooter() {
           <BrandMark invert />
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-cream/70">
             Grain systems, Yarbo yard robots, and custom metal — family owned
-            and operated from Brentford, South Dakota since 1985.
+            and operated from 303 East 6th Street, Brentford, South Dakota since
+            1985.
           </p>
         </div>
         <div>
@@ -34,6 +35,11 @@ export function SiteFooter() {
               </Link>
             </li>
             <li>
+              <Link to="/service-area" className="hover:text-leaf-bright">
+                Service area
+              </Link>
+            </li>
+            <li>
               <Link to="/store" className="hover:text-leaf-bright">
                 Store
               </Link>
@@ -41,6 +47,11 @@ export function SiteFooter() {
             <li>
               <Link to="/gallery" className="hover:text-leaf-bright">
                 Gallery
+              </Link>
+            </li>
+            <li>
+              <Link to="/contact" className="hover:text-leaf-bright">
+                Contact
               </Link>
             </li>
           </ul>
