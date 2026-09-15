@@ -110,6 +110,7 @@ function GrainBinsPage() {
             "Bin monitoring and spreaders",
             "Concrete pads",
             "Service, belts, motors, and harvest repairs",
+            "Dryer service",
           ].map((item) => (
             <li
               key={item}
