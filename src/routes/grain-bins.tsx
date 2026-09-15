@@ -14,7 +14,7 @@ const STEPS = [
   {
     n: "02",
     t: "Draw it in-house",
-    d: "CAD layouts from our shop, not a faxed sketch. You see the pad, the legs, and the handling before steel ships.",
+    d: "CAD drawings of your project, on your site — done right here in Nik's office.",
   },
   {
     n: "03",
