@@ -224,7 +224,7 @@ export const PRODUCTS: Product[] = [
     name: "Rolling Tables",
     category: "tables",
     kind: "custom",
-    priceCents: 145000,
+    priceCents: 149500,
     priceNote: "Starting price · size, top, and lettering quoted",
     blurb:
       "Welded steel bases on wheels — butcher-block work tables or a long console. Shop, cabin, or outdoor bar.",
