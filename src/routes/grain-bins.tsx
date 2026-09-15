@@ -97,9 +97,8 @@ function GrainBinsPage() {
         <div>
           <h2 className="font-display text-4xl text-forest">What we sell and stand behind</h2>
           <p className="mt-4 text-muted leading-relaxed">
-            GSI grain bins and the iron around them. We price the system — not a
-            mystery line item — and we do the majority of the work ourselves.
-            These are sites this crew stood.
+            GSI grain bins and the accessories to go with them. We design these
+            sites ourselves and we walk the ground with you.
           </p>
         </div>
         <ul className="grid gap-3 text-sm">
