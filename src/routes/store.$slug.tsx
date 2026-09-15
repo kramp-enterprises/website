@@ -124,7 +124,7 @@ function ProductPage() {
               />
             ) : null}
             <Button size="lg" onClick={addToCart}>
-              Add to cart
+              {item.kind === "custom" ? "Add deposit to cart" : "Add to cart"}
             </Button>
           </div>
         )}

@@ -19,6 +19,7 @@ import { Route as GrainBinsRouteImport } from './routes/grain-bins'
 import { Route as QuoteRouteImport } from './routes/quote'
 import { Route as StoreRouteImport } from './routes/store'
 import { Route as YarboRouteImport } from './routes/yarbo'
+import { Route as OrderSuccessRouteImport } from './routes/order.success'
 import { Route as StoreIndexRouteImport } from './routes/store.index'
 import { Route as StoreSlugRouteImport } from './routes/store.$slug'
 
@@ -72,6 +73,11 @@ const YarboRoute = YarboRouteImport.update({
   path: '/yarbo',
   getParentRoute: () => rootRouteImport,
 } as any)
+const OrderSuccessRoute = OrderSuccessRouteImport.update({
+  id: '/order/success',
+  path: '/order/success',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const StoreIndexRoute = StoreIndexRouteImport.update({
   id: '/',
   path: '/',
@@ -94,6 +100,7 @@ export interface FileRoutesByFullPath {
   '/quote': typeof QuoteRoute
   '/store': typeof StoreRouteWithChildren
   '/yarbo': typeof YarboRoute
+  '/order/success': typeof OrderSuccessRoute
   '/store/$slug': typeof StoreSlugRoute
   '/store/': typeof StoreIndexRoute
 }
@@ -107,6 +114,7 @@ export interface FileRoutesByTo {
   '/grain-bins': typeof GrainBinsRoute
   '/quote': typeof QuoteRoute
   '/yarbo': typeof YarboRoute
+  '/order/success': typeof OrderSuccessRoute
   '/store/$slug': typeof StoreSlugRoute
   '/store': typeof StoreIndexRoute
 }
@@ -122,6 +130,7 @@ export interface FileRoutesById {
   '/quote': typeof QuoteRoute
   '/store': typeof StoreRouteWithChildren
   '/yarbo': typeof YarboRoute
+  '/order/success': typeof OrderSuccessRoute
   '/store/$slug': typeof StoreSlugRoute
   '/store/': typeof StoreIndexRoute
 }
@@ -138,6 +147,7 @@ export interface FileRouteTypes {
     | '/quote'
     | '/store'
     | '/yarbo'
+    | '/order/success'
     | '/store/$slug'
     | '/store/'
   fileRoutesByTo: FileRoutesByTo
@@ -151,6 +161,7 @@ export interface FileRouteTypes {
     | '/grain-bins'
     | '/quote'
     | '/yarbo'
+    | '/order/success'
     | '/store/$slug'
     | '/store'
   id:
@@ -165,6 +176,7 @@ export interface FileRouteTypes {
     | '/quote'
     | '/store'
     | '/yarbo'
+    | '/order/success'
     | '/store/$slug'
     | '/store/'
   fileRoutesById: FileRoutesById
@@ -180,6 +192,7 @@ export interface RootRouteChildren {
   QuoteRoute: typeof QuoteRoute
   StoreRoute: typeof StoreRouteWithChildren
   YarboRoute: typeof YarboRoute
+  OrderSuccessRoute: typeof OrderSuccessRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -254,6 +267,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof YarboRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/order/success': {
+      id: '/order/success'
+      path: '/order/success'
+      fullPath: '/order/success'
+      preLoaderRoute: typeof OrderSuccessRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/store/': {
       id: '/store/'
       path: '/'
@@ -294,6 +314,7 @@ const rootRouteChildren: RootRouteChildren = {
   QuoteRoute: QuoteRoute,
   StoreRoute: StoreRouteWithChildren,
   YarboRoute: YarboRoute,
+  OrderSuccessRoute: OrderSuccessRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
