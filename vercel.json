@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/services-sales-page-2-1",
+      "destination": "/yarbo",
+      "permanent": true
+    },
+    {
+      "source": "/services-sales-page-2-1/",
+      "destination": "/yarbo",
+      "permanent": true
+    }
+  ]
+}
