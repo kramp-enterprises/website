@@ -1,9 +1,28 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { FaqBlock } from "@/components/faq-block";
+import { JsonLd } from "@/components/json-ld";
 import { PageHero } from "@/components/page-hero";
 import { Button } from "@/components/ui/button";
+import {
+  GRAIN_FAQS,
+  breadcrumbJsonLd,
+  faqJsonLd,
+  pageHead,
+  serviceJsonLd,
+} from "@/lib/seo";
 import { cn } from "@/lib/utils";
 
-export const Route = createFileRoute("/grain-bins")({ component: GrainBinsPage });
+export const Route = createFileRoute("/grain-bins")({
+  component: GrainBinsPage,
+  head: () =>
+    pageHead({
+      title: "GSI Grain Bins & Handling | James River Valley, SD",
+      description:
+        "GSI dealer in Brentford, South Dakota. Farm and commercial grain bins, augers, sweeps, fans, monitoring, dryers, and concrete. Site walk to standing steel. Call (605) 887-3456.",
+      path: "/grain-bins",
+      image: "/images/bins/harvest.jpg",
+    }),
+});
 
 const STEPS = [
   {
@@ -32,35 +51,35 @@ const JOBS = [
   {
     src: "/images/bins/harvest.jpg",
     title: "Harvest loadout",
-    alt: "Grain bins with a swing-away auger loading a hopper trailer at dusk",
+    alt: "GSI grain bins with a swing-away auger loading a hopper trailer at dusk in South Dakota",
     span: "lg:col-span-2",
     tall: false,
   },
   {
     src: "/images/bins/leg.jpg",
     title: "GSI legs and catwalks",
-    alt: "GSI bucket elevator and catwalks against a clear sky",
+    alt: "GSI bucket elevator and catwalks on a grain system near Brentford South Dakota",
     span: "",
     tall: true,
   },
   {
     src: "/images/bins/catwalk.jpg",
     title: "Setting a versaloop",
-    alt: "Crane lifting a catwalk between grain bins with a worker on the roof",
+    alt: "Crane lifting a grain bin catwalk with a worker on the roof",
     span: "",
     tall: true,
   },
   {
     src: "/images/bins/complex.jpg",
     title: "Commercial storage",
-    alt: "Commercial GSI grain bin complex with catwalks and a dryer",
+    alt: "Commercial GSI grain bin complex with catwalks and a dryer in South Dakota",
     span: "lg:col-span-2",
     tall: false,
   },
   {
     src: "/images/bins/dryer.jpg",
     title: "Dryer, elevator, control",
-    alt: "Grain dryer, bucket elevator, bins, and green control building",
+    alt: "Grain dryer, bucket elevator, bins, and control building installed by Kramp Enterprises",
     span: "",
     tall: false,
   },
@@ -76,9 +95,25 @@ const JOBS = [
 function GrainBinsPage() {
   return (
     <main>
+      <JsonLd
+        data={[
+          serviceJsonLd({
+            name: "GSI grain bin sales and installation",
+            description:
+              "GSI farm and commercial grain bins, handling, conditioning, and concrete from Brentford, South Dakota.",
+            path: "/grain-bins",
+            image: "/images/bins/harvest.jpg",
+          }),
+          breadcrumbJsonLd([
+            { name: "Home", path: "/" },
+            { name: "Grain bins", path: "/grain-bins" },
+          ]),
+          faqJsonLd(GRAIN_FAQS),
+        ]}
+      />
       <PageHero
-        kicker="GSI dealer"
-        title="Grain bins & handling that get done right."
+        kicker="GSI dealer · Brentford, SD"
+        title="GSI grain bins and handling that get done right."
         lede="Farm and commercial storage, material handling, and conditioning — designed, assembled, and installed from Brentford for the James River Valley and northeast South Dakota."
         image="/images/bins/harvest.jpg"
         position="center"
@@ -97,8 +132,10 @@ function GrainBinsPage() {
         <div>
           <h2 className="font-display text-4xl text-forest">What we sell and stand behind</h2>
           <p className="mt-4 text-muted leading-relaxed">
-            GSI grain bins and the accessories to go with them. We design these
-            sites ourselves and we walk the ground with you.
+            GSI grain bins and the accessories to go with them — augers, sweeps,
+            fans, monitoring, dryers, and the concrete pad. We design these
+            sites ourselves and we walk the ground with you in Brentford,
+            Redfield, Aberdeen, and the rest of the valley.
           </p>
         </div>
         <ul className="grid gap-3 text-sm">
@@ -112,10 +149,7 @@ function GrainBinsPage() {
             "Service, belts, motors, and harvest repairs",
             "Dryer service",
           ].map((item) => (
-            <li
-              key={item}
-              className="rounded-md border border-line bg-card px-4 py-3 text-ink"
-            >
+            <li key={item} className="rounded-md border border-line bg-card px-4 py-3 text-ink">
               {item}
             </li>
           ))}
@@ -124,36 +158,21 @@ function GrainBinsPage() {
 
       <section className="bg-paper">
         <div className="mx-auto max-w-6xl px-4 py-16">
-          <p className="font-display text-xs uppercase tracking-[0.22em] text-muted">
-            Job sites
-          </p>
-          <h2 className="mt-2 font-display text-4xl text-forest sm:text-5xl">
-            Stood by this crew.
-          </h2>
+          <p className="font-display text-xs uppercase tracking-[0.22em] text-muted">Job sites</p>
+          <h2 className="mt-2 font-display text-4xl text-forest sm:text-5xl">Stood by this crew.</h2>
           <p className="mt-4 max-w-2xl leading-relaxed text-muted">
             Farm loadout, commercial complexes, dryers, legs, and the day a
             catwalk goes in the air. Send more photos anytime — they go up here.
           </p>
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {JOBS.map((job) => (
-              <figure
-                key={job.src}
-                className={cn(
-                  "overflow-hidden rounded-xl border border-line bg-card",
-                  job.span,
-                )}
-              >
+              <figure key={job.src} className={cn("overflow-hidden rounded-xl border border-line bg-card", job.span)}>
                 <img
                   src={job.src}
                   alt={job.alt}
-                  className={cn(
-                    "w-full object-cover",
-                    job.tall ? "aspect-[3/4] object-top" : "aspect-[4/3] object-center",
-                  )}
+                  className={cn("w-full object-cover", job.tall ? "aspect-[3/4] object-top" : "aspect-[4/3] object-center")}
                 />
-                <figcaption className="px-4 py-3 font-display text-sm text-forest">
-                  {job.title}
-                </figcaption>
+                <figcaption className="px-4 py-3 font-display text-sm text-forest">{job.title}</figcaption>
               </figure>
             ))}
           </div>
@@ -171,6 +190,8 @@ function GrainBinsPage() {
           ))}
         </div>
       </section>
+
+      <FaqBlock items={GRAIN_FAQS} title="Grain bin questions" />
 
       <section className="bg-forest text-cream">
         <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-6 px-4 py-14 sm:flex-row sm:items-center">
