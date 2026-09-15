@@ -24,7 +24,7 @@ const STEPS = [
   {
     n: "04",
     t: "Stay on it",
-    d: "Fans, sweeps, plugged sumps, and harvest-night calls. Repeat business is how this shop stays busy.",
+    d: "Fans, sweeps, plugged sumps and harvest calls. Repeat business is what our company was built on.",
   },
 ];
 
