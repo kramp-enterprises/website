@@ -15,7 +15,7 @@ function FabPage() {
       <PageHero
         kicker="6th Street Fab"
         title="Steel that has a name on it."
-        lede="CNC plasma, welding, and powder coat from the shop at 303 East 6th. Farm signs, portraits, fire boxes, tables, stairs — cut here, not drop-shipped."
+        lede="CNC plasma and welding from the shop at 303 East 6th. Farm signs, portraits, fire boxes, tables, stairs — cut here, not drop-shipped."
         image="/images/plasma-cut.jpg"
         video="/videos/plasma-cut.mp4"
       >
@@ -43,7 +43,7 @@ function FabPage() {
           },
           {
             t: "We finish it",
-            d: "Cut, grind, weld if it needs it, powder coat, hardware, hang instructions.",
+            d: "Cut, grind, weld if it needs it, hardware, hang instructions.",
           },
         ].map((s) => (
           <article key={s.t} className="rounded-xl border border-line bg-card p-6">

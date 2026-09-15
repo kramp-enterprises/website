@@ -137,13 +137,12 @@ export const PRODUCTS: Product[] = [
     category: "signs",
     kind: "custom",
     priceCents: 18500,
-    priceNote: "Starting price · size and powder coat change the quote",
+    priceNote: "Starting price · size and finish change the quote",
     blurb:
       "Plasma-cut steel farm, family, or cabin name. Built in Brentford, finished, ready for a post or shop wall.",
     details: [
       "CNC plasma from your wording and layout",
       "Steel plate, ground and finished",
-      "Powder coat in forest, black, or cream",
       "Proof before we cut",
     ],
     image: "/images/sign-jilek.png",
@@ -196,7 +195,7 @@ export const PRODUCTS: Product[] = [
       "Plasma-cut whitetail on a riveted steel plate. Shop wall, cabin, or man-cave — this one is a catalog cut.",
     details: [
       "Cut silhouette on a framed plate",
-      "Raw steel, clear, or powder coat",
+      "Raw steel or clear coat",
       "Hanging hardware included",
     ],
     image: "/images/deer.png",
@@ -233,7 +232,7 @@ export const PRODUCTS: Product[] = [
     details: [
       "Heavy plate, fold-and-weld box",
       "Vent pattern and lid with flame cut",
-      "Raw steel or powder coat",
+      "Raw steel or painted",
     ],
     image: "/images/firepit.png",
     cutout: true,
@@ -248,7 +247,7 @@ export const PRODUCTS: Product[] = [
     blurb:
       "Welded steel bases on wheels — butcher-block work tables or a long console. Shop, cabin, or outdoor bar.",
     details: [
-      "Steel frame, powder coat in your color",
+      "Welded steel frame, finished in your color",
       "Butcher-block, plate, or slim console top",
       "Optional plasma-cut name in the shelf",
       "Wheels that actually roll on gravel",

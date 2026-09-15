@@ -65,7 +65,7 @@ function Home() {
           video="/videos/plasma-cut.mp4"
           kicker="6th Street Fab"
           title="Custom signs & steel"
-          copy="Plasma-cut farm names, portraits, fire boxes, tables, and stairs. Proof, cut, powder, hang."
+          copy="Plasma-cut farm names, portraits, fire boxes, tables, and stairs. Proof, cut, hang."
           position="center"
         />
       </section>
@@ -117,7 +117,7 @@ function Home() {
           <ul className="mt-6 space-y-2 text-sm text-ink">
             <li>GSI dealer · bins, handling, conditioning</li>
             <li>Yarbo authorized dealer · South Dakota acreage</li>
-            <li>CNC plasma, powder coat, custom steel</li>
+            <li>CNC plasma and custom steel</li>
             <li>James River Valley and northeast South Dakota</li>
           </ul>
           <div className="mt-8 flex flex-wrap gap-3">
