@@ -9,7 +9,7 @@ const STEPS = [
   {
     n: "01",
     t: "Walk the site",
-    d: "We kick the dirt with you — power, traffic, wet holding, dryer, and where the next bin goes in five years.",
+    d: "We kick the dirt with you — power, traffic, wet holding, dryer, and where the next bin goes in five years. Because we don't want our kids and your kids having to re-do something because we didn't think it through the first time.",
   },
   {
     n: "02",
