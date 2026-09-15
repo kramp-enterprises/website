@@ -45,7 +45,7 @@ export const PRODUCTS: Product[] = [
     name: "Yarbo Lawn Mower Pro",
     category: "yarbo",
     kind: "buy",
-    priceCents: 209900,
+    priceCents: 200000,
     priceNote: "Requires Yarbo Core",
     blurb:
       "Heavy-duty mowing module for large rural yards — the kind of lawn a riding mower used to own.",
@@ -69,7 +69,7 @@ export const PRODUCTS: Product[] = [
     name: "Yarbo Snow Blower Module",
     category: "yarbo",
     kind: "buy",
-    priceCents: 129900,
+    priceCents: 220000,
     priceNote: "Requires Yarbo Core · 24 in clearing",
     blurb:
       "Two-stage snow module for South Dakota driveways, shop lots, and farm lanes.",
@@ -92,7 +92,7 @@ export const PRODUCTS: Product[] = [
     name: "Yarbo Blower Module",
     category: "yarbo",
     kind: "buy",
-    priceCents: 109900,
+    priceCents: 110000,
     priceNote: "Requires Yarbo Core",
     blurb:
       "Leaf and debris blower module for fall cleanup around shops, bins, and house yards.",
@@ -113,7 +113,7 @@ export const PRODUCTS: Product[] = [
     name: "Acreage Kit — Core + Mower Pro + Snow",
     category: "yarbo",
     kind: "buy",
-    priceCents: 659900,
+    priceCents: 819900,
     priceNote: "Includes local delivery and mapping in our service area",
     blurb:
       "The South Dakota package: one Core, summer mowing, and winter snow. We set it up on your place.",
