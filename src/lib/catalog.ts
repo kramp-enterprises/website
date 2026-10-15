@@ -66,7 +66,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     slug: "yarbo-snow",
-    name: "Yarbo Snow Blower Module",
+    name: "Yarbo Snow Blower Module Gen 2",
     category: "yarbo",
     kind: "buy",
     priceCents: 220000,
@@ -142,7 +142,7 @@ export const PRODUCTS: Product[] = [
     blurb:
       "The South Dakota package: one Core, summer mowing, and winter snow. We set it up on your place.",
     details: [
-      "Yarbo Core + Lawn Mower Pro + Snow Blower",
+      "Yarbo Core + Lawn Mower Pro + Snow Blower Gen 2",
       "Docking station and data center",
       "On-farm mapping and walkthrough",
       "Call for out-of-area freight",
