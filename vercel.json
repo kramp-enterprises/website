@@ -1,6 +1,30 @@
 {
   "redirects": [
     {
+      "source": "/",
+      "has": [{ "type": "host", "value": "www.krampconstruction.com" }],
+      "destination": "https://www.krampenterprises.com/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "krampconstruction.com" }],
+      "destination": "https://www.krampenterprises.com/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "www.krampenterprise.com" }],
+      "destination": "https://www.krampenterprises.com/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "krampenterprise.com" }],
+      "destination": "https://www.krampenterprises.com/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [{ "type": "host", "value": "krampconstruction.com" }],
       "destination": "https://www.krampenterprises.com/:path*",
