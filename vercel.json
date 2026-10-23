@@ -1,6 +1,30 @@
 {
   "redirects": [
     {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "krampconstruction.com" }],
+      "destination": "https://www.krampenterprises.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.krampconstruction.com" }],
+      "destination": "https://www.krampenterprises.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "krampenterprise.com" }],
+      "destination": "https://www.krampenterprises.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.krampenterprise.com" }],
+      "destination": "https://www.krampenterprises.com/:path*",
+      "permanent": true
+    },
+    {
       "source": "/services-sales-page-2-1",
       "destination": "/yarbo",
       "permanent": true
