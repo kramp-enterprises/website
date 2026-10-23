@@ -45,8 +45,8 @@ export const PRODUCTS: Product[] = [
     name: "Yarbo Lawn Mower Pro",
     category: "yarbo",
     kind: "buy",
-    priceCents: 200000,
-    priceNote: "Requires Yarbo Core",
+    priceCents: 180000,
+    priceNote: "Requires Yarbo Core · sale, was $2,000",
     blurb:
       "Heavy-duty mowing module for large rural yards — the kind of lawn a riding mower used to own.",
     details: [
@@ -69,8 +69,8 @@ export const PRODUCTS: Product[] = [
     name: "Yarbo Snow Blower Module Gen 2",
     category: "yarbo",
     kind: "buy",
-    priceCents: 220000,
-    priceNote: "Requires Yarbo Core · 24 in clearing",
+    priceCents: 200000,
+    priceNote: "Requires Yarbo Core · 24 in · sale, was $2,200",
     blurb:
       "Two-stage snow module for South Dakota driveways, shop lots, and farm lanes.",
     details: [
@@ -92,8 +92,8 @@ export const PRODUCTS: Product[] = [
     name: "Yarbo Blower Module",
     category: "yarbo",
     kind: "buy",
-    priceCents: 110000,
-    priceNote: "Requires Yarbo Core",
+    priceCents: 100000,
+    priceNote: "Requires Yarbo Core · sale, was $1,100",
     blurb:
       "Leaf and debris blower module for fall cleanup around shops, bins, and house yards.",
     details: [
@@ -113,8 +113,8 @@ export const PRODUCTS: Product[] = [
     name: "Core + Lawn Mower Pro",
     category: "yarbo",
     kind: "buy",
-    priceCents: 599900,
-    priceNote: "Includes local delivery and mapping in our service area",
+    priceCents: 539900,
+    priceNote: "Yarbo sale, was $5,999 · local delivery and mapping",
     blurb:
       "The mowing package: Yarbo Core and Lawn Mower Pro. Same machine you add snow and blower to later.",
     details: [
@@ -137,8 +137,8 @@ export const PRODUCTS: Product[] = [
     name: "Acreage Kit — Core + Mower Pro + Snow",
     category: "yarbo",
     kind: "buy",
-    priceCents: 819900,
-    priceNote: "Includes local delivery and mapping in our service area",
+    priceCents: 739900,
+    priceNote: "Yarbo sale, was $8,199 · local delivery and mapping",
     blurb:
       "The South Dakota package: one Core, summer mowing, and winter snow. We set it up on your place.",
     details: [
