@@ -14,6 +14,68 @@ function Home() {
 
   return (
     <main>
+      <section className="relative isolate overflow-hidden bg-[#e6a000] text-black">
+        <img
+          src="/images/bins/complex.jpg"
+          alt=""
+          className="absolute inset-0 size-full object-cover opacity-40 mix-blend-multiply"
+        />
+        <div className="absolute inset-0 bg-[#f0b429]/70" />
+        <div className="relative mx-auto flex max-w-6xl flex-col items-start gap-8 px-4 py-10 md:flex-row md:items-center md:justify-between md:py-12">
+          <div className="max-w-xl">
+            <p className="font-display text-xs font-semibold uppercase tracking-[0.28em]">
+              GSI dealer · Brentford
+            </p>
+            <h2 className="mt-2 font-display text-5xl leading-[0.9] tracking-tight sm:text-7xl">
+              The best time to save.
+            </h2>
+            <p className="mt-4 max-w-md text-base font-medium leading-snug sm:text-lg">
+              GSI’s biggest discounts of the year. Build a more complete system
+              — bins, handling, and conditioning — and you save more. Start
+              planning with Kramp.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-3">
+              <Button
+                asChild
+                size="lg"
+                className="bg-black text-[#f5c518] hover:bg-black/90"
+              >
+                <Link to="/quote">Get a bin quote</Link>
+              </Button>
+              <Button
+                asChild
+                size="lg"
+                variant="outline"
+                className="border-black/40 text-black hover:bg-black hover:text-[#f5c518]"
+              >
+                <a href="tel:6058873456">605-887-3456</a>
+              </Button>
+            </div>
+          </div>
+          <div
+            className="w-full max-w-xs shrink-0 bg-black px-6 pb-12 pt-6 text-center shadow-2xl"
+            style={{
+              clipPath: "polygon(0 0, 100% 0, 100% 84%, 78% 100%, 0 100%)",
+            }}
+          >
+            <img
+              src="/images/logo.png"
+              alt="Kramp Enterprises"
+              className="mx-auto w-full rounded-sm bg-white px-3 py-2"
+            />
+            <p className="mt-5 font-display text-3xl leading-none tracking-tight text-[#f5c518]">
+              SYSTEM
+            </p>
+            <p className="font-display text-5xl leading-none tracking-tight text-white">
+              $AVINGS
+            </p>
+            <p className="font-display text-3xl leading-none tracking-tight text-[#f5c518]">
+              EVENT
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-cream">
         <div className="mx-auto flex max-w-6xl flex-col items-center px-4 py-14 text-center sm:py-20">
           <img
