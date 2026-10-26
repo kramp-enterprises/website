@@ -24,7 +24,7 @@ function Home() {
         <div className="relative mx-auto flex max-w-6xl flex-col items-start gap-8 px-4 py-10 md:flex-row md:items-center md:justify-between md:py-12">
           <div className="max-w-xl">
             <p className="font-display text-xs font-semibold uppercase tracking-[0.28em]">
-              GSI dealer · Brentford
+              GSI dealer · Brentford · Ends November 30
             </p>
             <h2 className="mt-2 font-display text-5xl leading-[0.9] tracking-tight sm:text-7xl">
               The best time to save.
@@ -59,9 +59,9 @@ function Home() {
             }}
           >
             <img
-              src="/images/logo.png"
-              alt="Kramp Enterprises"
-              className="mx-auto w-full rounded-sm bg-white px-3 py-2"
+              src="/images/gsi-logo.png"
+              alt="GSI"
+              className="mx-auto h-16 w-auto"
             />
             <p className="mt-5 font-display text-3xl leading-none tracking-tight text-[#f5c518]">
               SYSTEM
