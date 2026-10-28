@@ -1,4 +1,5 @@
 {
+  "trailingSlash": false,
   "redirects": [
     {
       "source": "/",
@@ -56,6 +57,96 @@
     {
       "source": "/services-sales-page-2-1/",
       "destination": "/yarbo",
+      "permanent": true
+    },
+    {
+      "source": "/contactus",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/about-us",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/material-handling",
+      "destination": "/grain-bins",
+      "permanent": true
+    },
+    {
+      "source": "/materialhandling",
+      "destination": "/grain-bins",
+      "permanent": true
+    },
+    {
+      "source": "/handling",
+      "destination": "/grain-bins",
+      "permanent": true
+    },
+    {
+      "source": "/grainbins",
+      "destination": "/grain-bins",
+      "permanent": true
+    },
+    {
+      "source": "/grain-bin",
+      "destination": "/grain-bins",
+      "permanent": true
+    },
+    {
+      "source": "/fab",
+      "destination": "/fabrication",
+      "permanent": true
+    },
+    {
+      "source": "/signs",
+      "destination": "/fabrication",
+      "permanent": true
+    },
+    {
+      "source": "/custom-fabrication",
+      "destination": "/fabrication",
+      "permanent": true
+    },
+    {
+      "source": "/servicearea",
+      "destination": "/service-area",
+      "permanent": true
+    },
+    {
+      "source": "/services",
+      "destination": "/service-area",
+      "permanent": true
+    },
+    {
+      "source": "/home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/shop",
+      "destination": "/store",
+      "permanent": true
+    },
+    {
+      "source": "/products",
+      "destination": "/store",
+      "permanent": true
+    },
+    {
+      "source": "/favicon.ico",
+      "destination": "/favicon.svg",
       "permanent": true
     }
   ]

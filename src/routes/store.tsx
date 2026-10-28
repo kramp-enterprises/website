@@ -8,9 +8,13 @@ const CATS: Cat[] = ["all", "yarbo", "signs", "tables", "bins"];
 export type StoreSearch = { cat?: Cat };
 
 export const Route = createFileRoute("/store")({
-  validateSearch: (search: Record<string, unknown>): StoreSearch => ({
-    cat: CATS.includes(search.cat as Cat) ? (search.cat as Cat) : "all",
-  }),
+  validateSearch: (search: Record<string, unknown>): StoreSearch => {
+    const cat = search.cat;
+    if (typeof cat === "string" && (CATS as readonly string[]).includes(cat)) {
+      return { cat: cat as Cat };
+    }
+    return {};
+  },
   component: StoreLayout,
 });
 

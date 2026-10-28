@@ -8,12 +8,17 @@ import { productBySlug, isCutoutSrc } from "@/lib/catalog";
 import { cn, money } from "@/lib/utils";
 
 export const Route = createFileRoute("/store/$slug")({
+  loader: ({ params }) => {
+    const product = productBySlug(params.slug);
+    if (!product) throw notFound();
+    return product;
+  },
   component: ProductPage,
 });
 
 function ProductPage() {
   const { slug } = Route.useParams();
-  const product = productBySlug(slug);
+  const item = Route.useLoaderData();
   const add = useCart((s) => s.add);
   const [note, setNote] = useState("");
   const [active, setActive] = useState(0);
@@ -22,9 +27,6 @@ function ProductPage() {
     setActive(0);
   }, [slug]);
 
-  if (!product) throw notFound();
-
-  const item = product;
   const shots = [item.image, ...(item.shots ?? []).filter((s) => s !== item.image)];
   const current = shots[Math.min(active, shots.length - 1)] ?? item.image;
   const cutout = isCutoutSrc(current);
