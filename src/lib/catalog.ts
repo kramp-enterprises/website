@@ -46,7 +46,7 @@ export const PRODUCTS: Product[] = [
     category: "yarbo",
     kind: "buy",
     priceCents: 160000,
-    priceNote: "Requires Yarbo Core · Black Friday through Nov 30, was $2,000",
+    priceNote: "Requires Yarbo Core · sale, was $2,000",
     blurb:
       "Heavy-duty mowing module for large rural yards — the kind of lawn a riding mower used to own.",
     details: [
@@ -70,7 +70,7 @@ export const PRODUCTS: Product[] = [
     category: "yarbo",
     kind: "buy",
     priceCents: 180000,
-    priceNote: "Requires Yarbo Core · 24 in · Black Friday through Nov 30, was $2,200",
+    priceNote: "Requires Yarbo Core · 24 in · sale, was $2,200",
     blurb:
       "Two-stage snow module for South Dakota driveways, shop lots, and farm lanes.",
     details: [
@@ -93,7 +93,7 @@ export const PRODUCTS: Product[] = [
     category: "yarbo",
     kind: "buy",
     priceCents: 90000,
-    priceNote: "Requires Yarbo Core · Black Friday through Nov 30, was $1,100",
+    priceNote: "Requires Yarbo Core · sale, was $1,100",
     blurb:
       "Leaf and debris blower module for fall cleanup around shops, bins, and house yards.",
     details: [
@@ -114,7 +114,7 @@ export const PRODUCTS: Product[] = [
     category: "yarbo",
     kind: "buy",
     priceCents: 489900,
-    priceNote: "Black Friday through Nov 30, was $5,999 · local delivery and mapping",
+    priceNote: "Yarbo sale, was $5,999 · local delivery and mapping",
     blurb:
       "The mowing package: Yarbo Core and Lawn Mower Pro. Same machine you add snow and blower to later.",
     details: [
@@ -138,7 +138,7 @@ export const PRODUCTS: Product[] = [
     category: "yarbo",
     kind: "buy",
     priceCents: 649900,
-    priceNote: "Black Friday through Nov 30, was $8,199 · local delivery and mapping",
+    priceNote: "Yarbo sale, was $8,199 · local delivery and mapping",
     blurb:
       "The South Dakota package: one Core, summer mowing, and winter snow. We set it up on your place.",
     details: [
