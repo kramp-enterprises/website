@@ -85,7 +85,7 @@ function YarboPage() {
         <div className="mx-auto max-w-6xl px-4 py-16">
           <h2 className="font-display text-4xl text-forest">On the shelf</h2>
           <p className="mt-2 max-w-xl text-sm text-muted">
-            Black Friday prices from yarbo.com, through November 30.
+            Prices match yarbo.com and update on their own.
             Dealer setup in our service area is included on the acreage kit —
             call on freight past that.
           </p>
