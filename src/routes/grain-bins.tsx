@@ -16,9 +16,9 @@ export const Route = createFileRoute("/grain-bins")({
   component: GrainBinsPage,
   head: () =>
     pageHead({
-      title: "GSI Grain Bins & Handling | James River Valley, SD",
+      title: "Grain Bins in South Dakota | Kramp Enterprises",
       description:
-        "GSI dealer in Brentford, South Dakota. Farm and commercial grain bins, augers, sweeps, fans, monitoring, dryers, and concrete. Site walk to standing steel. Call (605) 887-3456.",
+        "Grain bins in South Dakota from a GSI dealer in Brentford. Designed and assembled for Brentford, Redfield, Aberdeen, and the James River Valley. Call (605) 887-3456.",
       path: "/grain-bins",
       image: "/images/bins/harvest.jpg",
     }),
@@ -98,23 +98,23 @@ function GrainBinsPage() {
       <JsonLd
         data={[
           serviceJsonLd({
-            name: "GSI grain bin sales and installation",
+            name: "Grain bins in South Dakota",
             description:
-              "GSI farm and commercial grain bins, handling, conditioning, and concrete from Brentford, South Dakota.",
+              "GSI grain bins, handling, conditioning, and concrete for Brentford, Redfield, Aberdeen, and the James River Valley.",
             path: "/grain-bins",
             image: "/images/bins/harvest.jpg",
           }),
           breadcrumbJsonLd([
             { name: "Home", path: "/" },
-            { name: "Grain bins", path: "/grain-bins" },
+            { name: "Grain bins in South Dakota", path: "/grain-bins" },
           ]),
           faqJsonLd(GRAIN_FAQS),
         ]}
       />
       <PageHero
         kicker="GSI dealer · Brentford, SD"
-        title="GSI grain bins and handling that get done right."
-        lede="Farm and commercial storage, material handling, and conditioning — designed, assembled, and installed from Brentford for the James River Valley and northeast South Dakota."
+        title="Grain bins in South Dakota that get done right."
+        lede="Farm and commercial storage, material handling, and conditioning — designed and assembled in Brentford for Redfield, Aberdeen, and the James River Valley."
         image="/images/bins/harvest.jpg"
         position="center"
       >
