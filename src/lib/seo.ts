@@ -218,7 +218,7 @@ export function productJsonLd(product: Product) {
 export const GRAIN_FAQS = [
   {
     q: "Do you sell and install GSI grain bins in South Dakota?",
-    a: "Yes. Kramp Enterprises is a GSI dealer in Brentford. We design, pour concrete, erect bins, and install handling and conditioning for farms across the James River Valley and northeast South Dakota.",
+    a: "Yes. Kramp Enterprises is a GSI dealer in Brentford. We design, pour concrete, erect bins, and install handling and conditioning for farms in Brentford, Redfield, Aberdeen, and the James River Valley.",
   },
   {
     q: "What grain handling equipment do you install?",
