@@ -14,6 +14,16 @@ function Home() {
 
   return (
     <main>
+      <section className="bg-white">
+        <a href="/contact" className="mx-auto block max-w-6xl">
+          <img
+            src="/images/christmas-trees.jpg"
+            alt="Handcrafted metal Christmas trees, $50 each. 14-gauge steel, 12.5 inches tall. Custom letter monogram plus $5. Made by Kramp Enterprises in Brentford."
+            className="h-auto w-full"
+          />
+        </a>
+      </section>
+
       <section className="relative isolate overflow-hidden bg-[#e6a000] text-black">
         <img
           src="/images/bins/complex.jpg"
